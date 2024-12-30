@@ -61,6 +61,11 @@ Verifique o status do `cronie`:
 systemctl status cronie
 ```
 
+
+**Observação:** O arquivo `arthur` é uma configuração do Cronie e deve ser alterado para refletir o caminho correto para o seu usuário. Lembre-se de ajustar o caminho conforme necessário para que o script funcione corretamente no seu ambiente.
+
+
+
 ### **Arquivos de Comando**
 
 Os arquivos de comando `batterynotify` e `chargingnotify` são usados para monitorar o status da bateria e enviar notificações.
