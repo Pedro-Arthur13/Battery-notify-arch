@@ -3,6 +3,10 @@
 
 <img src="https://i.pinimg.com/originals/71/05/ea/7105eaad76922b7e0f5fe4f5b0ba71de.gif" alt="Yokuso" width="1050" height="auto"/>
 
+> **⚠️ Aviso**: Os códigos utilizados neste projeto não são inteiramente de minha autoria. Eles foram adaptados a partir dos scripts desenvolvidos por Eric Murphy. Os créditos completos podem ser encontrados no final deste README.
+
+---
+
 Este projeto configura notificações de bateria em um sistema Linux utilizando `cron`, `acpi`, e `notify-send`. O objetivo é fornecer notificações quando a bateria estiver baixa, carregada ou desconectada.
 
 ### **Dependências**
@@ -173,6 +177,17 @@ Isso vai garantir que o script seja executado sempre que a bateria for conectada
 
 ---
 
+# **Créditos:**
+Os códigos utilizados neste projeto não são inteiramente meus. Eles foram desenvolvidos por Eric Murphy e estão disponíveis no repositório dele. Os scripts podem ser encontrados nos seguintes links:
+
+- [Código de Notificação de Bateria](https://github.com/ericmurphyxyz/dotfiles/blob/master/.local/bin/battery-alert)
+- [Código de Notificação de Carregamento da Bateria](https://github.com/ericmurphyxyz/dotfiles/blob/master/.local/bin/battery-charging)
+
+O vídeo explicando o funcionamento dos códigos pode ser acessado [aqui](https://www.youtube.com/watch?v=3wTt6fStYCI&ab_channel=EricMurphy). 
+
+As imagens dos ícones das notificações foram retiradas do site [Pictogrammers](https://pictogrammers.com/library/mdi/), e os comandos para configurar as regras do Udev foram baseados na [documentação oficial do Arch Wiki](https://wiki.archlinux.org/title/Udev#Triggering_desktop_notifications_from_a_udev_rule).
+
+---
 Agora você tem um sistema que envia notificações quando a bateria atinge certos níveis ou quando é conectada/desconectada, com a utilização de cron e Udev para automação.
 
 <img src="https://static.wikia.nocookie.net/aa9c3777-68fe-4d68-ad7e-7f9374fee7c6/scale-to-width/755" alt="Yokuso" width="1050" height="auto"/>
